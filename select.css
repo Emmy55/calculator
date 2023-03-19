@@ -32,10 +32,16 @@ body {
 }
 @media (min-width: 768px) {
   .select-box {
-    width: 70%;
+    width: 49%;
+    position: relative;
+    top: 50px;
+    /* left: 10px; */
   }
   .select-box1 {
-    width: 70%;
+    width: 49%;
+    position: relative;
+    top: 65px;
+    left: 00px;
   }
 }
 @media (min-width: 992px) {

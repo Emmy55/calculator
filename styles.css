@@ -1,7 +1,7 @@
 body{
     background-repeat: no-repeat;
     background: #252839;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-size: cover;
     
 }
@@ -38,7 +38,7 @@ a {
     input  {
         position: relative;
         top: 155px;
-        left:99px;
+        left:97px;
         color: white;
         background-color: rgba(0, 0, 0, 0.861);
         border-radius: 20px;
@@ -97,7 +97,7 @@ a {
             }
            
             h4 {
-                font-size: 18px;
+                font-size: 15px;
                 position: relative;
                 top: 30px;
                 margin: 0px 35px 0px 35px;
@@ -133,7 +133,7 @@ a {
                     width: 0;
                 }
                 70%, 100%{
-                    width: 85%;
+                    width: 99%;
                 }
             }
 }
@@ -225,7 +225,8 @@ a {
            
             h4 {
                 font-size: 18px;
-                position: relative;
+                        width: 60%;
+                        position: relative;
                 top: 30px;
                 left: 175px;
                 /* text-align: center; */
@@ -263,6 +264,80 @@ a {
                     width: 85%;
                 }
             }   
+    }
+@media screen and (min-width:768px) {
+    input[ type = 'number'] {
+                position: relative;
+                top: 80px;
+                border-radius: 10px;
+                left: 266px;
+                padding-left: 13px;
+                border: none;
+                width: 39%;
+                color: black;
+                background-color: white;
+                height: 40px;
+            }
+            input  {
+                position: relative;
+                top: 95px;
+                left: 220px;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.861);
+                border-radius: 20px;
+                border: none;
+                width: 49%;
+                height: 50px;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Poppins', sans-serif;
+                        box-sizing: border-box;
+                    }
+                   
+                    h4 {
+                        font-size: 18px;
+                        position: relative;
+                        width: 60%;
+                        top: 30px;
+                        left: 299px;
+                        /* text-align: center; */
+                        color: #0023eb00;
+                        -webkit-text-stroke: 0.3vw #0033ff00;
+                        /* text-transform: uppercase; */
+            
+                    }
+                    h2{
+                        font-size: 29px;
+                        text-align: center;
+                        color: white;
+                        position: relative;
+                        top: 20px;
+                    }
+                    h4::before{
+                        content: attr(data-text);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 0%;
+                        height: 100%;
+                        color: white;
+                        /* -webkit-text-stroke: 0.2vw #000000; */
+                        border-right: 2px solid #1e00ff00;
+                        overflow: hidden;
+                        
+                        animation: animate 4s linear infinite;
+                    }
+                    @keyframes animate {
+                        0%,10%,100% {
+                            width: 0;
+                        }
+                        70%, 100%{
+                            width: 85%;
+                        }
+                    }
 }
 
     @media screen and (min-width:992px) {
