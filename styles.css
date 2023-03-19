@@ -100,7 +100,7 @@ a {
                 font-size: 15px;
                 position: relative;
                 top: 30px;
-                margin: 0px 35px 0px 35px;
+                margin: 0px 37px 0px 43px;
                 /* text-align: center; */
                 color: #0023eb00;
                 -webkit-text-stroke: 0.3vw #0033ff00;
@@ -270,7 +270,7 @@ a {
                 position: relative;
                 top: 80px;
                 border-radius: 10px;
-                left: 266px;
+                left: 279px;
                 padding-left: 13px;
                 border: none;
                 width: 39%;
@@ -281,7 +281,7 @@ a {
             input  {
                 position: relative;
                 top: 95px;
-                left: 220px;
+                left: 235px;
                 color: white;
                 background-color: rgba(0, 0, 0, 0.861);
                 border-radius: 20px;
@@ -302,7 +302,7 @@ a {
                         position: relative;
                         width: 60%;
                         top: 30px;
-                        left: 299px;
+                        left: 329px;
                         /* text-align: center; */
                         color: #0023eb00;
                         -webkit-text-stroke: 0.3vw #0033ff00;
